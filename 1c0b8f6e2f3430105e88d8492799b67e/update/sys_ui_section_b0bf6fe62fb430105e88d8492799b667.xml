@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b0bf6fe62fb430105e88d8492799b667" sys_domain="global" table="sys_user" version="3" view="Solicitacao_de_Ferias_e_Ausencias">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>a6edfbe22ff430105e88d8492799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>2eedfbe22ff430105e88d8492799b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>avatar</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>a2edfbe22ff430105e88d8492799b6c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>2aedfbe22ff430105e88d8492799b6c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>aeedfbe22ff430105e88d8492799b6c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>26edfbe22ff430105e88d8492799b6c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_257168_solicit_0_u_qnd_dias_disponiveis</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 19:13:12</sys_created_on>
+            <sys_id>aaedfbe22ff430105e88d8492799b6c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="ecbf6fe62fb430105e88d8492799b662">b0bf6fe62fb430105e88d8492799b667</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 19:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-20 18:11:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0bf6fe62fb430105e88d8492799b667</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+            <sys_update_name>sys_ui_section_b0bf6fe62fb430105e88d8492799b667</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-20 18:11:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Solicitacao de Ferias e Ausencias" name="Solicitacao_de_Ferias_e_Ausencias">ecbf6fe62fb430105e88d8492799b662</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

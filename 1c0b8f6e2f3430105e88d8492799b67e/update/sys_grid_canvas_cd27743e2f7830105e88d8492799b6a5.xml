@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Solicitações de Féri - New Tab">8927743e2f7830105e88d8492799b6a4</legacy_page>
+        <name>PA Solicitações de Féri - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 23:23:13</sys_created_on>
+        <sys_id>cd27743e2f7830105e88d8492799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Solicitações de Féri - New Tab</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_grid_canvas_cd27743e2f7830105e88d8492799b6a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 23:23:13</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_saldo</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:06:41</sys_created_on>
+        <sys_id>fb5c7ba22ff430105e88d8492799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_saldo</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fb5c7ba22ff430105e88d8492799b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:06:41</sys_updated_on>
+        <table>x_257168_solicit_0_requisicoes</table>
+        <ui_policy display_value="2 - Solicitação Tipo Licença e Falta">e8cbab262fb430105e88d8492799b639</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

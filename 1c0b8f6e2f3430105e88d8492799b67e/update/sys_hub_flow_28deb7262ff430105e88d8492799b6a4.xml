@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>solicitaes_frias_e_ausncia</internal_name>
+        <label_cache>[{"name":"Created_1.current.sys_updated_on","label":"Trigger➛Requisições Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_updated_on"},{"name":"7bf188b8-6b43-4cf1-841c-3fe2b3f4026e.record.sys_updated_on","label":"19➛Requisições Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_updated_on"},{"name":"Created_1.current.opened_by.manager","label":"Trigger➛Requisições Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"85e38b0b-c669-4144-a193-093fd82bfc21.approval_state","label":"20➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7bf188b8-6b43-4cf1-841c-3fe2b3f4026e.table_name","label":"19➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7bf188b8-6b43-4cf1-841c-3fe2b3f4026e.record","label":"19➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10e858b2-fb31-4da1-a04c-8c6a637820df.scheduled_end_date_time","label":"21➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"10e858b2-fb31-4da1-a04c-8c6a637820df.total_duration","label":"21➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.record.opened_by","label":"17➛Requisições Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"opened_by"},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.record.sys_updated_by","label":"17➛Requisições Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_updated_by"},{"name":"d8c9ef51-0dde-4f3d-818f-0ca63d707d7a.Record.sys_mod_count","label":"20➛Requisições Record➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_mod_count"},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.record.number","label":"17➛Requisições Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"number"},{"name":"d8c9ef51-0dde-4f3d-818f-0ca63d707d7a.error_message","label":"20➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"d8c9ef51-0dde-4f3d-818f-0ca63d707d7a.status","label":"20➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d8c9ef51-0dde-4f3d-818f-0ca63d707d7a.Table","label":"20➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8c9ef51-0dde-4f3d-818f-0ca63d707d7a.Record","label":"20➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.record.sys_mod_count","label":"17➛Requisições Record➛Updates","reference":"","reference_display":"Updates","type":"integer","base_type":"integer","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_mod_count"},{"name":"e183b37d-bf8e-4fcd-82ee-f1b10f705dae.error_message","label":"18➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e183b37d-bf8e-4fcd-82ee-f1b10f705dae.status","label":"18➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e183b37d-bf8e-4fcd-82ee-f1b10f705dae.Table","label":"18➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e183b37d-bf8e-4fcd-82ee-f1b10f705dae.Record","label":"18➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fbfdc61b-7be0-4f6d-b3eb-fe202e0169f9.state","label":"21➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.table_name","label":"17➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e677a48a-5349-430b-9e40-029f1f5deaeb.record","label":"17➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ef14e7a-9d7d-45fe-a425-f2e5d2f01b0e.table_name","label":"13➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ef14e7a-9d7d-45fe-a425-f2e5d2f01b0e.record","label":"13➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"397f2bf5-5415-4a96-97d9-80b43ac856b8.scheduled_end_date_time","label":"12➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"397f2bf5-5415-4a96-97d9-80b43ac856b8.total_duration","label":"12➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"af3bb05a-cded-46b0-8368-9cb491c6ff49.record.opened_by.manager","label":"4➛Requisições Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"af3bb05a-cded-46b0-8368-9cb491c6ff49.record.sys_updated_on","label":"4➛Requisições Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"sys_updated_on"},{"name":"efaf2ee1-2dbf-4d0c-8ecc-7109eebe22db.approval_state","label":"5➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_end_date","label":"Trigger➛Requisições Record➛Data Término","reference":"","reference_display":"Data Término","type":"glide_date","base_type":"glide_date","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"u_end_date"},{"name":"Created_1.current.u_start_date","label":"Trigger➛Requisições Record➛Data Inicial","reference":"","reference_display":"Data Inicial","type":"glide_date","base_type":"glide_date","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"u_start_date"},{"name":"Created_1.current.u_qnd","label":"Trigger➛Requisições Record➛Quantidade de Dias","reference":"","reference_display":"Quantidade de Dias","type":"choice","base_type":"choice","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"u_qnd"},{"name":"Created_1.current.u_tipo_solicitacao","label":"Trigger➛Requisições Record➛Solicitação","reference":"","reference_display":"Solicitação","type":"choice","base_type":"choice","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"u_tipo_solicitacao"},{"name":"af3bb05a-cded-46b0-8368-9cb491c6ff49.table_name","label":"4➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af3bb05a-cded-46b0-8368-9cb491c6ff49.record","label":"4➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc4d85f7-9852-4212-b00f-0af60ae88dd7.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"dc4d85f7-9852-4212-b00f-0af60ae88dd7.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Created_1.current","label":"Trigger➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições","type":"reference","base_type":"reference","attributes":{}},{"name":"ae78e51e-761a-4109-9ecd-fb03289b7c34.table_name","label":"1➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ae78e51e-761a-4109-9ecd-fb03289b7c34.record","label":"1➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"663865c1-4a60-446a-b3d5-bc281e6a3be8.record","label":"7➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"663865c1-4a60-446a-b3d5-bc281e6a3be8.table_name","label":"7➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e021834-1486-43f2-841e-b0040c3fe448.record","label":"15➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e021834-1486-43f2-841e-b0040c3fe448.table_name","label":"15➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ae47dd55-ffee-4143-a089-dbf60fa1599c.Record","label":"8➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ae47dd55-ffee-4143-a089-dbf60fa1599c.Table","label":"8➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24790bdb-659c-4f8b-a636-bcaa069830e1.total_duration","label":"9➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"24790bdb-659c-4f8b-a636-bcaa069830e1.scheduled_end_date_time","label":"9➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"862c2f17-0baa-478b-84ec-d112470aaec5.record","label":"11➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"862c2f17-0baa-478b-84ec-d112470aaec5.table_name","label":"11➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8498bed-d577-4147-8184-b365f5a82bb4.record","label":"8➛Task Record","reference":"task","reference_display":"Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8498bed-d577-4147-8184-b365f5a82bb4.table_name","label":"8➛Task Table","reference":"task","reference_display":"Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.name","label":"Trigger➛Requisições Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"64d7e194-bdf5-44fe-b92d-efbd741a7166.record","label":"10➛Task Record","reference":"task","reference_display":"Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"64d7e194-bdf5-44fe-b92d-efbd741a7166.table_name","label":"10➛Task Table","reference":"task","reference_display":"Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e3a70c-2b09-4251-87eb-d811a7e8a571.record","label":"22➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77e3a70c-2b09-4251-87eb-d811a7e8a571.table_name","label":"22➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a69c6f2d-50ed-4cf9-a21e-d7f949739588.record","label":"24➛Requisições Record","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a69c6f2d-50ed-4cf9-a21e-d7f949739588.table_name","label":"24➛Requisições Table","reference":"x_257168_solicit_0_requisicoes","reference_display":"Requisições Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff12dbe4-31d8-4bc5-a180-9fb9cad0fd7e.state","label":"18➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created_1.current.opened_by","label":"Trigger➛Requisições Record➛Opened by","reference":"sys_user","reference_display":"Opened by","type":"reference","base_type":"reference","parent_table_name":"x_257168_solicit_0_requisicoes","column_name":"opened_by"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Solicitações Férias e Ausência</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28deb7262ff430105e88d8492799b6a4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Solicitações Férias e Ausência</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_hub_flow_28deb7262ff430105e88d8492799b6a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=28deb7262ff430105e88d8492799b6a4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=28deb7262ff430105e88d8492799b6a4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=28deb7262ff430105e88d8492799b6a4^sys_idNOT IN7303c4f62ff430105e88d8492799b609"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>7303c4f62ff430105e88d8492799b609</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:05</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7303c4f62ff430105e88d8492799b609"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7303c4f62ff430105e88d8492799b609</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>3f03c4f62ff430105e88d8492799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7303c4f62ff430105e88d8492799b609</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>b303c4f62ff430105e88d8492799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value>u_estagio=1^active=true</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=28deb7262ff430105e88d8492799b6a4^sys_idNOT INa0deb7262ff430105e88d8492799b6a7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>28deb7262ff430105e88d8492799b6a4</id>
+        <name>Solicitações Férias e Ausência</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:17:09</sys_created_on>
+        <sys_id>a0deb7262ff430105e88d8492799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:17:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=28deb7262ff430105e88d8492799b6a4^sys_idNOT IN2b0384f62ff430105e88d8492799b6fa,bf03c4f62ff430105e88d8492799b601"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</model>
+        <model_id>28deb7262ff430105e88d8492799b6a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_28deb7262ff430105e88d8492799b6a4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>2b0384f62ff430105e88d8492799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</model>
+        <model_id>28deb7262ff430105e88d8492799b6a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_28deb7262ff430105e88d8492799b6a4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>bf03c4f62ff430105e88d8492799b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=28deb7262ff430105e88d8492799b6a4^sys_idNOT IN2e06487a2ff430105e88d8492799b63e,4013c4f62ff430105e88d8492799b63f,4413c4f62ff430105e88d8492799b634,5e06487a2ff430105e88d8492799b633,711744ba2ff430105e88d8492799b6f8,886e08322f3830105e88d8492799b67a,a95c08be2ff430105e88d8492799b6bc,a95c08be2ff430105e88d8492799b6c7,a95c08be2ff430105e88d8492799b6cf,bb03c4f62ff430105e88d8492799b61b,cc13c4f62ff430105e88d8492799b646,d206487a2ff430105e88d8492799b622,d606487a2ff430105e88d8492799b62e,e95c08be2ff430105e88d8492799b6b5,ff03c4f62ff430105e88d8492799b62d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>13</order>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>2e06487a2ff430105e88d8492799b63e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>3ef14e7a-9d7d-45fe-a425-f2e5d2f01b0e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e06487a2ff430105e88d8492799b63e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e06487a2ff430105e88d8492799b63e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>2a06487a2ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e06487a2ff430105e88d8492799b63e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>6606487a2ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>comments=WF: Processo de Solicitação de Férias Concluido com Sucesso.^u_estagio=6^active=false^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e06487a2ff430105e88d8492799b63e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2e06487a2ff430105e88d8492799b63e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>2206487a2ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2e06487a2ff430105e88d8492799b63e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>6e06487a2ff430105e88d8492799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2e06487a2ff430105e88d8492799b63e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>e206487a2ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>7</order>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4013c4f62ff430105e88d8492799b63f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>663865c1-4a60-446a-b3d5-bc281e6a3be8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4013c4f62ff430105e88d8492799b63f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4013c4f62ff430105e88d8492799b63f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8813c4f62ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4013c4f62ff430105e88d8492799b63f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:40</sys_created_on>
+        <sys_id>da06487a2ff430105e88d8492799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:40</sys_updated_on>
+        <value>comments=WF: A Sua programação de Férias Aprovada.
+WF: Estamos Agendado no Sistema, Aguarde</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4013c4f62ff430105e88d8492799b63f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4013c4f62ff430105e88d8492799b63f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4413c4f62ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4013c4f62ff430105e88d8492799b63f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8013c4f62ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4013c4f62ff430105e88d8492799b63f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0813c4f62ff430105e88d8492799b640</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>5</order>
+        <parent_ui_id>96296ece-a741-418a-bc27-758210763976</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4413c4f62ff430105e88d8492799b634</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>efaf2ee1-2dbf-4d0c-8ecc-7109eebe22db</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4413c4f62ff430105e88d8492799b634"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4413c4f62ff430105e88d8492799b634</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0c13c4f62ff430105e88d8492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4413c4f62ff430105e88d8492799b634</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4813c4f62ff430105e88d8492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4413c4f62ff430105e88d8492799b634</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8413c4f62ff430105e88d8492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4413c4f62ff430105e88d8492799b634</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>c013c4f62ff430105e88d8492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4413c4f62ff430105e88d8492799b634"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8c13c4f62ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{af3bb05a-cded-46b0-8368-9cb491c6ff49.record.opened_by.manager}},{{static.6816f79cc0a8016401c5a33be04be441}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8013c4f62ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>c813c4f62ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"approve","date_type":"relative","date":"{{af3bb05a-cded-46b0-8368-9cb491c6ff49.record.sys_updated_on}}","duration":"2","duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4413c4f62ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0813c4f62ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{af3bb05a-cded-46b0-8368-9cb491c6ff49.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4413c4f62ff430105e88d8492799b634</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4013c4f62ff430105e88d8492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>11</order>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>5e06487a2ff430105e88d8492799b633</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>862c2f17-0baa-478b-84ec-d112470aaec5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e06487a2ff430105e88d8492799b633"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e06487a2ff430105e88d8492799b633</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>5a06487a2ff430105e88d8492799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e06487a2ff430105e88d8492799b633</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>9606487a2ff430105e88d8492799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>comments=WF: A Sua programação de Férias está Registrada no sistema.^u_estagio=5</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e06487a2ff430105e88d8492799b633"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5e06487a2ff430105e88d8492799b633</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>5206487a2ff430105e88d8492799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5e06487a2ff430105e88d8492799b633</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>9e06487a2ff430105e88d8492799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5e06487a2ff430105e88d8492799b633</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>1606487a2ff430105e88d8492799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>17</order>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>711744ba2ff430105e88d8492799b6f8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>e677a48a-5349-430b-9e40-029f1f5deaeb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=711744ba2ff430105e88d8492799b6f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>711744ba2ff430105e88d8492799b6f8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>7d1744ba2ff430105e88d8492799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:53:17</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>711744ba2ff430105e88d8492799b6f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>b91744ba2ff430105e88d8492799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:53:17</sys_updated_on>
+        <value>comments=WF: Por gentileza, envie envie uma foto do atestado ou forneça mais detalhes sobre o motivo do seu pedido.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=711744ba2ff430105e88d8492799b6f8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>711744ba2ff430105e88d8492799b6f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>751744ba2ff430105e88d8492799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:53:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>711744ba2ff430105e88d8492799b6f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>b11744ba2ff430105e88d8492799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:53:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>711744ba2ff430105e88d8492799b6f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:53:17</sys_created_on>
+        <sys_id>391744ba2ff430105e88d8492799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:53:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>18</order>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>886e08322f3830105e88d8492799b67a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>ff12dbe4-31d8-4bc5-a180-9fb9cad0fd7e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=886e08322f3830105e88d8492799b67a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>886e08322f3830105e88d8492799b67a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>406e08322f3830105e88d8492799b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>886e08322f3830105e88d8492799b67a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>8c6e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <value>1970-01-01 00:05:00</value>
+        <variable display_value="Duration">cdce8a4187120010663ca1bb36cb0bf9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>886e08322f3830105e88d8492799b67a</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>c86e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable timeout">0dce8a4187120010663ca1bb36cb0bf4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=886e08322f3830105e88d8492799b67a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>886e08322f3830105e88d8492799b67a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>846e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>sys_updated_by={{Created_1.current.opened_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>886e08322f3830105e88d8492799b67a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>c06e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{e677a48a-5349-430b-9e40-029f1f5deaeb.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>886e08322f3830105e88d8492799b67a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>486e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timeout_duration</field>
+        <id>886e08322f3830105e88d8492799b67a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>006e08322f3830105e88d8492799b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timeout_flag</field>
+        <id>886e08322f3830105e88d8492799b67a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:25:07</sys_created_on>
+        <sys_id>486e08322f3830105e88d8492799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>20</order>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a95c08be2ff430105e88d8492799b6bc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>85e38b0b-c669-4144-a193-093fd82bfc21</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a95c08be2ff430105e88d8492799b6bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6bc</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>2d5c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6bc</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>695c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6bc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a55c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6bc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>ed5c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a95c08be2ff430105e88d8492799b6bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>615c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}},{{static.6816f79cc0a8016401c5a33be04be441}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>655c08be2ff430105e88d8492799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>ad5c08be2ff430105e88d8492799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"approve","date_type":"relative","date":"{{Created_1.current.sys_updated_on}}","duration":"1","duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>295c08be2ff430105e88d8492799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e95c08be2ff430105e88d8492799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a95c08be2ff430105e88d8492799b6bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>255c08be2ff430105e88d8492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>22</order>
+        <parent_ui_id>42cf128d-9366-466b-b7e6-5af40fde51a3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a95c08be2ff430105e88d8492799b6c7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>77e3a70c-2b09-4251-87eb-d811a7e8a571</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a95c08be2ff430105e88d8492799b6c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6c7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a55c08be2ff430105e88d8492799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6c7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e15c08be2ff430105e88d8492799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>comments=WF: Solicitação Aprovada^u_estagio=6^active=false^state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a95c08be2ff430105e88d8492799b6c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a95c08be2ff430105e88d8492799b6c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>ad5c08be2ff430105e88d8492799b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a95c08be2ff430105e88d8492799b6c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e95c08be2ff430105e88d8492799b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a95c08be2ff430105e88d8492799b6c7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>615c08be2ff430105e88d8492799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>24</order>
+        <parent_ui_id>14cb6322-9b32-436c-9077-f3c69145e0b8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a95c08be2ff430105e88d8492799b6cf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>a69c6f2d-50ed-4cf9-a21e-d7f949739588</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a95c08be2ff430105e88d8492799b6cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6cf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a55c08be2ff430105e88d8492799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a95c08be2ff430105e88d8492799b6cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e15c08be2ff430105e88d8492799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>comments=WF: Solicitação Reprovada^u_estagio=7^state=4^active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a95c08be2ff430105e88d8492799b6cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a95c08be2ff430105e88d8492799b6cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>ad5c08be2ff430105e88d8492799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a95c08be2ff430105e88d8492799b6cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e95c08be2ff430105e88d8492799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a95c08be2ff430105e88d8492799b6cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>615c08be2ff430105e88d8492799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>bb03c4f62ff430105e88d8492799b61b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:05</sys_updated_on>
+        <ui_id>ae78e51e-761a-4109-9ecd-fb03289b7c34</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb03c4f62ff430105e88d8492799b61b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb03c4f62ff430105e88d8492799b61b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>3f03c4f62ff430105e88d8492799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb03c4f62ff430105e88d8492799b61b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>7b03c4f62ff430105e88d8492799b61e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:40</sys_updated_on>
+        <value>comments=WF: Sua solicitação está sendo encaminhada para o seu gestor, aguarde.^u_estagio=2^state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb03c4f62ff430105e88d8492799b61b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bb03c4f62ff430105e88d8492799b61b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>3703c4f62ff430105e88d8492799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb03c4f62ff430105e88d8492799b61b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>fb03c4f62ff430105e88d8492799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb03c4f62ff430105e88d8492799b61b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>f703c4f62ff430105e88d8492799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>15</order>
+        <parent_ui_id>fff39b6d-b069-407e-894b-842c78d7f61a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>cc13c4f62ff430105e88d8492799b646</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>6e021834-1486-43f2-841e-b0040c3fe448</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc13c4f62ff430105e88d8492799b646"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc13c4f62ff430105e88d8492799b646</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0813c4f62ff430105e88d8492799b648</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>comments=WF: A Sua programação de férias foi cancelada.
+Favor consultar o seu gestor para obter mais detalhes^u_estagio=7^active=false^state=4</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc13c4f62ff430105e88d8492799b646</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>c813c4f62ff430105e88d8492799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cc13c4f62ff430105e88d8492799b646"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cc13c4f62ff430105e88d8492799b646</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>c013c4f62ff430105e88d8492799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cc13c4f62ff430105e88d8492799b646</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0013c4f62ff430105e88d8492799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cc13c4f62ff430105e88d8492799b646</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8413c4f62ff430105e88d8492799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>8</order>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:40</sys_created_on>
+        <sys_id>d206487a2ff430105e88d8492799b622</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>d8498bed-d577-4147-8184-b365f5a82bb4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d206487a2ff430105e88d8492799b622"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d206487a2ff430105e88d8492799b622</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:40</sys_created_on>
+        <sys_id>1a06487a2ff430105e88d8492799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:40</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d206487a2ff430105e88d8492799b622"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d206487a2ff430105e88d8492799b622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:40</sys_created_on>
+        <sys_id>de06487a2ff430105e88d8492799b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d206487a2ff430105e88d8492799b622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:40</sys_created_on>
+        <sys_id>9606487a2ff430105e88d8492799b624</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description=WF: Agendamento de Férias para: {{Created_1.current.opened_by.name}}^state=2^description=WF: Registrando o colaborador no ERP  {{Created_1.current.opened_by.name}}^parent={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>10</order>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>d606487a2ff430105e88d8492799b62e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>64d7e194-bdf5-44fe-b92d-efbd741a7166</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d606487a2ff430105e88d8492799b62e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d606487a2ff430105e88d8492799b62e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>1206487a2ff430105e88d8492799b630</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:59:41</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d606487a2ff430105e88d8492799b62e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>d206487a2ff430105e88d8492799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d606487a2ff430105e88d8492799b62e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d606487a2ff430105e88d8492799b62e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>da06487a2ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{d8498bed-d577-4147-8184-b365f5a82bb4.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d606487a2ff430105e88d8492799b62e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>1a06487a2ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d606487a2ff430105e88d8492799b62e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>9e06487a2ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:59:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>description=WF: WF: Registrando o colaborador no ERP  {{Created_1.current.opened_by.name}}
+WF: Agendamento Registrado e confirmado no sistema.^state=3</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>19</order>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e95c08be2ff430105e88d8492799b6b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>7bf188b8-6b43-4cf1-841c-3fe2b3f4026e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e95c08be2ff430105e88d8492799b6b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e95c08be2ff430105e88d8492799b6b5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>295c08be2ff430105e88d8492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>comments=WF: Enviando para Aprovação^u_estagio=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e95c08be2ff430105e88d8492799b6b5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e95c08be2ff430105e88d8492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e95c08be2ff430105e88d8492799b6b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e95c08be2ff430105e88d8492799b6b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>e15c08be2ff430105e88d8492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e95c08be2ff430105e88d8492799b6b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>215c08be2ff430105e88d8492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e95c08be2ff430105e88d8492799b6b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>a55c08be2ff430105e88d8492799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <order>4</order>
+        <parent_ui_id>96296ece-a741-418a-bc27-758210763976</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>ff03c4f62ff430105e88d8492799b62d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>af3bb05a-cded-46b0-8368-9cb491c6ff49</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff03c4f62ff430105e88d8492799b62d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ff03c4f62ff430105e88d8492799b62d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>3b03c4f62ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>x_257168_solicit_0_requisicoes</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff03c4f62ff430105e88d8492799b62d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ff03c4f62ff430105e88d8492799b62d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>f303c4f62ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ff03c4f62ff430105e88d8492799b62d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>3303c4f62ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ff03c4f62ff430105e88d8492799b62d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>b703c4f62ff430105e88d8492799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>comments=WF: A Sua programação de Férias {{Created_1.current.u_qnd}}dias para as datas entre: 
+Data Inicial: {{Created_1.current.u_start_date}}
+Data Final: {{Created_1.current.u_end_date}}
+Está sendo enviada para aprovação do seu gestor.^u_estagio=3</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=28deb7262ff430105e88d8492799b6a4^sys_idNOT IN1606487a2ff430105e88d8492799b636,2d5c08be2ff430105e88d8492799b6c0,4413c4f62ff430105e88d8492799b641,4813c4f62ff430105e88d8492799b638,5a06487a2ff430105e88d8492799b625,615c08be2ff430105e88d8492799b6ca,8413c4f62ff430105e88d8492799b649,ff03c4f62ff430105e88d8492799b61f,ff03c4f62ff430105e88d8492799b626"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5e06487a2ff430105e88d8492799b635</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>1606487a2ff430105e88d8492799b636</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>397f2bf5-5415-4a96-97d9-80b43ac856b8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1606487a2ff430105e88d8492799b636"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1606487a2ff430105e88d8492799b636</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>a206487a2ff430105e88d8492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1606487a2ff430105e88d8492799b636</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>ee06487a2ff430105e88d8492799b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">655c08be2ff430105e88d8492799b6c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>21</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>2d5c08be2ff430105e88d8492799b6c0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>42cf128d-9366-466b-b7e6-5af40fde51a3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2d5c08be2ff430105e88d8492799b6c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2d5c08be2ff430105e88d8492799b6c0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>ad5c08be2ff430105e88d8492799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <value>Aprovado</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2d5c08be2ff430105e88d8492799b6c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2d5c08be2ff430105e88d8492799b6c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>2d5c08be2ff430105e88d8492799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{85e38b0b-c669-4144-a193-093fd82bfc21.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2d5c08be2ff430105e88d8492799b6c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>695c08be2ff430105e88d8492799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:16:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8c13c4f62ff430105e88d8492799b640</block>
+        <comment/>
+        <connected_to>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>96296ece-a741-418a-bc27-758210763976</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4413c4f62ff430105e88d8492799b641</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>fff39b6d-b069-407e-894b-842c78d7f61a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4413c4f62ff430105e88d8492799b641"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8013c4f62ff430105e88d8492799b638</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>96296ece-a741-418a-bc27-758210763976</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4813c4f62ff430105e88d8492799b638</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4813c4f62ff430105e88d8492799b638"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4813c4f62ff430105e88d8492799b638</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>c413c4f62ff430105e88d8492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>Férias Aprovadas</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4813c4f62ff430105e88d8492799b638"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>4813c4f62ff430105e88d8492799b638</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>4413c4f62ff430105e88d8492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{efaf2ee1-2dbf-4d0c-8ecc-7109eebe22db.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>4813c4f62ff430105e88d8492799b638</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8013c4f62ff430105e88d8492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9e06487a2ff430105e88d8492799b624</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>0b91de01-6fbc-43fd-b26a-90ed08a74cfa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>5a06487a2ff430105e88d8492799b625</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>24790bdb-659c-4f8b-a636-bcaa069830e1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5a06487a2ff430105e88d8492799b625"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5a06487a2ff430105e88d8492799b625</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>1a06487a2ff430105e88d8492799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5a06487a2ff430105e88d8492799b625</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:48:41</sys_created_on>
+        <sys_id>da06487a2ff430105e88d8492799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:48:41</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a95c08be2ff430105e88d8492799b6c9</block>
+        <comment/>
+        <connected_to>42cf128d-9366-466b-b7e6-5af40fde51a3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>23</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 20:16:12</sys_created_on>
+        <sys_id>615c08be2ff430105e88d8492799b6ca</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>14cb6322-9b32-436c-9077-f3c69145e0b8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=615c08be2ff430105e88d8492799b6ca"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cc13c4f62ff430105e88d8492799b648</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8413c4f62ff430105e88d8492799b649</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:07</sys_updated_on>
+        <ui_id>7ce7da95-8e1b-4797-8a21-74c69cb185e2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8413c4f62ff430105e88d8492799b649"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8413c4f62ff430105e88d8492799b649</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>0413c4f62ff430105e88d8492799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <value>Solicitação Tipo Ausencia e Atestado</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8413c4f62ff430105e88d8492799b649"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8413c4f62ff430105e88d8492799b649</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>8013c4f62ff430105e88d8492799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.u_tipo_solicitacao}}=2^NQ{{Created_1.current.u_tipo_solicitacao}}=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>8413c4f62ff430105e88d8492799b649</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:41</sys_created_on>
+        <sys_id>cc13c4f62ff430105e88d8492799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b303c4f62ff430105e88d8492799b61f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>ff03c4f62ff430105e88d8492799b61f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:05</sys_updated_on>
+        <ui_id>dc4d85f7-9852-4212-b00f-0af60ae88dd7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ff03c4f62ff430105e88d8492799b61f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ff03c4f62ff430105e88d8492799b61f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>3303c4f62ff430105e88d8492799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ff03c4f62ff430105e88d8492799b61f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>7f03c4f62ff430105e88d8492799b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3b03c4f62ff430105e88d8492799b626</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Solicitações Férias e Ausência">28deb7262ff430105e88d8492799b6a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>ff03c4f62ff430105e88d8492799b626</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 20:25:06</sys_updated_on>
+        <ui_id>96296ece-a741-418a-bc27-758210763976</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ff03c4f62ff430105e88d8492799b626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ff03c4f62ff430105e88d8492799b626</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>f303c4f62ff430105e88d8492799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <value>Solicitação de Férias</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff03c4f62ff430105e88d8492799b626"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ff03c4f62ff430105e88d8492799b626</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>7303c4f62ff430105e88d8492799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.u_tipo_solicitacao}}=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ff03c4f62ff430105e88d8492799b626</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>bf03c4f62ff430105e88d8492799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_28deb7262ff430105e88d8492799b6a4^sys_idNOT IN7703c4f62ff430105e88d8492799b606,f703c4f62ff430105e88d8492799b600"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_28deb7262ff430105e88d8492799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>7703c4f62ff430105e88d8492799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_28deb7262ff430105e88d8492799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 19:35:40</sys_created_on>
+        <sys_id>f703c4f62ff430105e88d8492799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 19:35:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

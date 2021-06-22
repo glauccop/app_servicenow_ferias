@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Requisições" max_length="40" name="x_257168_solicit_0_requisicoes" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data Término" max_length="40" name="u_end_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Estágio" max_length="40" name="u_estagio" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Novo" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Requisitado" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Aguardando Aprovação" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Agendado" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Registrado no Sistema" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Concluido" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Cancelado" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantidade de Dias" max_length="40" name="u_qnd" type="string">
+            <choice>
+                <element inactive_on_update="false" label="10" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="15" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="20" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="30" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Dias afastado" max_length="40" name="u_qnd_dias_afastado" type="integer"/>
+        <element label="Saldo Projetado" max_length="40" name="u_saldo" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Inicial" mandatory="true" max_length="40" name="u_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Solicitação" mandatory="true" max_length="40" name="u_tipo_solicitacao" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Férias" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Licença (Atestado)" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Falta" sequence="2" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

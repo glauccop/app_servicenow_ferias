@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_257168_solicit_0_requisicoes">u_estagio=6^EQ<item display_value="Concluido" endquery="false" field="u_estagio" goto="false" newquery="false" operator="=" or="false" value="6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Concluido</label>
+        <name>Concluido</name>
+        <order>60</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 18:03:02</sys_created_on>
+        <sys_id>3adda3a62fb430105e88d8492799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Concluido</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_process_flow_3adda3a62fb430105e88d8492799b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 18:03:02</sys_updated_on>
+        <table>x_257168_solicit_0_requisicoes</table>
+    </sys_process_flow>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Solicitações de Férias e Ausências">1df6f03e2f7830105e88d8492799b6ba</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_257168_solicit_0.admin</identity>
+        <read>true</read>
+        <role display_value="x_257168_solicit_0.admin" name="x_257168_solicit_0.admin">17fb8bae2f3430105e88d8492799b68c</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 23:25:45</sys_created_on>
+        <sys_id>ceb7b43e2f7830105e88d8492799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_257168_solicit_0.admin</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_ceb7b43e2f7830105e88d8492799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 23:25:45</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_qnd</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 17:39:29</sys_created_on>
+        <sys_id>eb48af622fb430105e88d8492799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_qnd</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_eb48af622fb430105e88d8492799b6bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 17:39:29</sys_updated_on>
+        <table>x_257168_solicit_0_requisicoes</table>
+        <ui_policy display_value="2 - Solicitação Tipo Licença e Falta">9f182f622fb430105e88d8492799b637</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</application>
+        <file_path/>
+        <instance_id>fb8d5490db11bf4052cec59705961923</instance_id>
+        <instance_name>dev84952</instance_name>
+        <name>sys_ui_policy_action_eb48af622fb430105e88d8492799b6bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_qnd</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-20 17:39:29</sys_created_on><sys_id>eb48af622fb430105e88d8492799b6bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_qnd</sys_name><sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope><sys_update_name>sys_ui_policy_action_eb48af622fb430105e88d8492799b6bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-20 17:39:29</sys_updated_on><table>x_257168_solicit_0_requisicoes</table><ui_policy display_value="2 - Solicitação Tipo Licença e Falta">9f182f622fb430105e88d8492799b637</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1100984883</payload_hash>
+        <record_name>u_qnd</record_name>
+        <reverted_from/>
+        <source>100b8f6e2f3430105e88d8492799b681</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 17:39:29</sys_created_on>
+        <sys_id>f9786b222fb430105e88d8492799b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a2a8184a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 17:39:29</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>35786b223fb43010f0b1509fc5830f04</update_guid>
+        <update_guid_history>35786b223fb43010f0b1509fc5830f04:1100984883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 17:53:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>26044af9e37c44bca7c092631da48fc1</sys_id>
+        <sys_metadata>eb48af622fb430105e88d8492799b6bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_qnd</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_scope_delete display_value="">1320f1c7ae5f4480a801ebe9245d9000</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_eb48af622fb430105e88d8492799b6bc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_eb48af622fb430105e88d8492799b6bc">f9786b222fb430105e88d8492799b604</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 17:53:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

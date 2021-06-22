@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_257168_solicit_0.Solicitantes" name="x_257168_solicit_0.Solicitantes">db5c8fae2f3430105e88d8492799b6f9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 15:36:42</sys_created_on>
+        <sys_id>175c8fae2f3430105e88d8492799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db5c8fae2f3430105e88d8492799b6f9</sys_name>
+        <sys_package display_value="Solicitação de Férias e Ausências" source="x_257168_solicit_0">1c0b8f6e2f3430105e88d8492799b67e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Férias e Ausências">1c0b8f6e2f3430105e88d8492799b67e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_175c8fae2f3430105e88d8492799b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 15:36:42</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
